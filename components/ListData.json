@@ -1,0 +1,532 @@
+[
+  {
+    "FoodItem": "Applesauce",
+    "per100grams": "100g",
+    "Cals_per100grams": "62 cal"
+  },
+  {
+    "FoodItem": "Canned Apricots",
+    "per100grams": "100g",
+    "Cals_per100grams": "48 cal"
+  },
+  {
+    "FoodItem": "Canned Blackberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "92 cal"
+  },
+  {
+    "FoodItem": "Canned Blueberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "88 cal"
+  },
+  {
+    "FoodItem": "Canned Cherries",
+    "per100grams": "100g",
+    "Cals_per100grams": "54 cal"
+  },
+  {
+    "FoodItem": "Canned Cranberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "178 cal"
+  },
+  {
+    "FoodItem": "Canned Crushed Pineapple",
+    "per100grams": "100g",
+    "Cals_per100grams": "53 cal"
+  },
+  {
+    "FoodItem": "Canned Figs",
+    "per100grams": "100g",
+    "Cals_per100grams": "107 cal"
+  },
+  {
+    "FoodItem": "Canned Fruit Cocktail",
+    "per100grams": "100g",
+    "Cals_per100grams": "81 cal"
+  },
+  {
+    "FoodItem": "Canned Fruit Salad",
+    "per100grams": "100g",
+    "Cals_per100grams": "50 cal"
+  },
+  {
+    "FoodItem": "Canned Gooseberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "73 cal"
+  },
+  {
+    "FoodItem": "Canned Grapefruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "37 cal"
+  },
+  {
+    "FoodItem": "Canned Grapes",
+    "per100grams": "100g",
+    "Cals_per100grams": "76 cal"
+  },
+  {
+    "FoodItem": "Canned Mandarin Oranges",
+    "per100grams": "100g",
+    "Cals_per100grams": "71 cal"
+  },
+  {
+    "FoodItem": "Canned Mango",
+    "per100grams": "100g",
+    "Cals_per100grams": "65 cal"
+  },
+  {
+    "FoodItem": "Canned Mangosteen",
+    "per100grams": "100g",
+    "Cals_per100grams": "73 cal"
+  },
+  {
+    "FoodItem": "Canned Mixed Fruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "71 cal"
+  },
+  {
+    "FoodItem": "Canned Morello Cherries",
+    "per100grams": "100g",
+    "Cals_per100grams": "81 cal"
+  },
+  {
+    "FoodItem": "Canned Oranges",
+    "per100grams": "100g",
+    "Cals_per100grams": "62 cal"
+  },
+  {
+    "FoodItem": "Canned Peaches",
+    "per100grams": "100g",
+    "Cals_per100grams": "54 cal"
+  },
+  {
+    "FoodItem": "Canned Pears",
+    "per100grams": "100g",
+    "Cals_per100grams": "35 cal"
+  },
+  {
+    "FoodItem": "Canned Pineapple",
+    "per100grams": "100g",
+    "Cals_per100grams": "60 cal"
+  },
+  {
+    "FoodItem": "Canned Plums",
+    "per100grams": "100g",
+    "Cals_per100grams": "58 cal"
+  },
+  {
+    "FoodItem": "Canned Raspberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "91 cal"
+  },
+  {
+    "FoodItem": "Canned Sliced Pineapple",
+    "per100grams": "100g",
+    "Cals_per100grams": "53 cal"
+  },
+  {
+    "FoodItem": "Canned Sour Cherries",
+    "per100grams": "100g",
+    "Cals_per100grams": "114 cal"
+  },
+  {
+    "FoodItem": "Canned Strawberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "92 cal"
+  },
+  {
+    "FoodItem": "Canned Tangerines",
+    "per100grams": "100g",
+    "Cals_per100grams": "61 cal"
+  },
+  {
+    "FoodItem": "Dried Fruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "243 cal"
+  },
+  {
+    "FoodItem": "Acai",
+    "per100grams": "100g",
+    "Cals_per100grams": "70 cal"
+  },
+  {
+    "FoodItem": "Apple",
+    "per100grams": "100g",
+    "Cals_per100grams": "52 cal"
+  },
+  {
+    "FoodItem": "Applesauce",
+    "per100grams": "100g",
+    "Cals_per100grams": "68 cal"
+  },
+  {
+    "FoodItem": "Apricot",
+    "per100grams": "100g",
+    "Cals_per100grams": "48 cal"
+  },
+  {
+    "FoodItem": "Avocado",
+    "per100grams": "100g",
+    "Cals_per100grams": "160 cal"
+  },
+  {
+    "FoodItem": "Banana",
+    "per100grams": "100g",
+    "Cals_per100grams": "89 cal"
+  },
+  {
+    "FoodItem": "Blackberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "43 cal"
+  },
+  {
+    "FoodItem": "Blood Oranges",
+    "per100grams": "100g",
+    "Cals_per100grams": "50 cal"
+  },
+  {
+    "FoodItem": "Blueberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "57 cal"
+  },
+  {
+    "FoodItem": "Cantaloupe",
+    "per100grams": "100g",
+    "Cals_per100grams": "34 cal"
+  },
+  {
+    "FoodItem": "Cherries",
+    "per100grams": "100g",
+    "Cals_per100grams": "50 cal"
+  },
+  {
+    "FoodItem": "Clementine",
+    "per100grams": "100g",
+    "Cals_per100grams": "47 cal"
+  },
+  {
+    "FoodItem": "Cranberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "46 cal"
+  },
+  {
+    "FoodItem": "Currants",
+    "per100grams": "100g",
+    "Cals_per100grams": "56 cal"
+  },
+  {
+    "FoodItem": "Custard Apple",
+    "per100grams": "100g",
+    "Cals_per100grams": "101 cal"
+  },
+  {
+    "FoodItem": "Dates",
+    "per100grams": "100g",
+    "Cals_per100grams": "282 cal"
+  },
+  {
+    "FoodItem": "Figs",
+    "per100grams": "100g",
+    "Cals_per100grams": "74 cal"
+  },
+  {
+    "FoodItem": "Fruit salad",
+    "per100grams": "100g",
+    "Cals_per100grams": "50 cal"
+  },
+  {
+    "FoodItem": "Grapes",
+    "per100grams": "100g",
+    "Cals_per100grams": "69 cal"
+  },
+  {
+    "FoodItem": "Greengage",
+    "per100grams": "100g",
+    "Cals_per100grams": "41 cal"
+  },
+  {
+    "FoodItem": "Guava",
+    "per100grams": "100g",
+    "Cals_per100grams": "68 cal"
+  },
+  {
+    "FoodItem": "Jackfruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "95 cal"
+  },
+  {
+    "FoodItem": "Jujube",
+    "per100grams": "100g",
+    "Cals_per100grams": "79 cal"
+  },
+  {
+    "FoodItem": "Kiwi",
+    "per100grams": "100g",
+    "Cals_per100grams": "61 cal"
+  },
+  {
+    "FoodItem": "Lemon",
+    "per100grams": "100g",
+    "Cals_per100grams": "29 cal"
+  },
+  {
+    "FoodItem": "Lime",
+    "per100grams": "100g",
+    "Cals_per100grams": "30 cal"
+  },
+  {
+    "FoodItem": "Lychees",
+    "per100grams": "100g",
+    "Cals_per100grams": "66 cal"
+  },
+  {
+    "FoodItem": "Mandarin Oranges",
+    "per100grams": "100g",
+    "Cals_per100grams": "53 cal"
+  },
+  {
+    "FoodItem": "Mango",
+    "per100grams": "100g",
+    "Cals_per100grams": "60 cal"
+  },
+  {
+    "FoodItem": "Minneola",
+    "per100grams": "100g",
+    "Cals_per100grams": "64 cal"
+  },
+  {
+    "FoodItem": "Mulberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "43 cal"
+  },
+  {
+    "FoodItem": "Nectarine",
+    "per100grams": "100g",
+    "Cals_per100grams": "44 cal"
+  },
+  {
+    "FoodItem": "Olives",
+    "per100grams": "100g",
+    "Cals_per100grams": "115 cal"
+  },
+  {
+    "FoodItem": "Orange",
+    "per100grams": "100g",
+    "Cals_per100grams": "47 cal"
+  },
+  {
+    "FoodItem": "Papaya",
+    "per100grams": "100g",
+    "Cals_per100grams": "43 cal"
+  },
+  {
+    "FoodItem": "Passion Fruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "97 cal"
+  },
+  {
+    "FoodItem": "Peach",
+    "per100grams": "100g",
+    "Cals_per100grams": "39 cal"
+  },
+  {
+    "FoodItem": "Pear",
+    "per100grams": "100g",
+    "Cals_per100grams": "57 cal"
+  },
+  {
+    "FoodItem": "Persimmon",
+    "per100grams": "100g",
+    "Cals_per100grams": "127 cal"
+  },
+  {
+    "FoodItem": "Physalis",
+    "per100grams": "100g",
+    "Cals_per100grams": "49 cal"
+  },
+  {
+    "FoodItem": "Pineapple",
+    "per100grams": "100g",
+    "Cals_per100grams": "50 cal"
+  },
+  {
+    "FoodItem": "Plantains",
+    "per100grams": "100g",
+    "Cals_per100grams": "122 cal"
+  },
+  {
+    "FoodItem": "Plum",
+    "per100grams": "100g",
+    "Cals_per100grams": "46 cal"
+  },
+  {
+    "FoodItem": "Pomegranate",
+    "per100grams": "100g",
+    "Cals_per100grams": "83 cal"
+  },
+  {
+    "FoodItem": "Quince",
+    "per100grams": "100g",
+    "Cals_per100grams": "57 cal"
+  },
+  {
+    "FoodItem": "Raisins",
+    "per100grams": "100g",
+    "Cals_per100grams": "299 cal"
+  },
+  {
+    "FoodItem": "Rambutan",
+    "per100grams": "100g",
+    "Cals_per100grams": "82 cal"
+  },
+  {
+    "FoodItem": "Raspberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "52 cal"
+  },
+  {
+    "FoodItem": "Rhubarb",
+    "per100grams": "100g",
+    "Cals_per100grams": "21 cal"
+  },
+  {
+    "FoodItem": "Starfruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "31 cal"
+  },
+  {
+    "FoodItem": "Strawberries",
+    "per100grams": "100g",
+    "Cals_per100grams": "32 cal"
+  },
+  {
+    "FoodItem": "Tamarind",
+    "per100grams": "100g",
+    "Cals_per100grams": "239 cal"
+  },
+  {
+    "FoodItem": "Tangerine",
+    "per100grams": "100g",
+    "Cals_per100grams": "53 cal"
+  },
+  {
+    "FoodItem": "Watermelon",
+    "per100grams": "100g",
+    "Cals_per100grams": "30 cal"
+  },
+  {
+    "FoodItem": "Acerola",
+    "per100grams": "100g",
+    "Cals_per100grams": "32 cal"
+  },
+  {
+    "FoodItem": "Asian Pear",
+    "per100grams": "100g",
+    "Cals_per100grams": "42 cal"
+  },
+  {
+    "FoodItem": "Avocado",
+    "per100grams": "100g",
+    "Cals_per100grams": "160 cal"
+  },
+  {
+    "FoodItem": "Banana",
+    "per100grams": "100g",
+    "Cals_per100grams": "89 cal"
+  },
+  {
+    "FoodItem": "Breadfruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "103 cal"
+  },
+  {
+    "FoodItem": "Cantaloupe Melon",
+    "per100grams": "100g",
+    "Cals_per100grams": "34 cal"
+  },
+  {
+    "FoodItem": "Casaba Melon",
+    "per100grams": "100g",
+    "Cals_per100grams": "28 cal"
+  },
+  {
+    "FoodItem": "Cherimoya",
+    "per100grams": "100g",
+    "Cals_per100grams": "75 cal"
+  },
+  {
+    "FoodItem": "Dragon Fruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "60 cal"
+  },
+  {
+    "FoodItem": "Durian",
+    "per100grams": "100g",
+    "Cals_per100grams": "147 cal"
+  },
+  {
+    "FoodItem": "Feijoa",
+    "per100grams": "100g",
+    "Cals_per100grams": "55 cal"
+  },
+  {
+    "FoodItem": "Galia Melon",
+    "per100grams": "100g",
+    "Cals_per100grams": "23 cal"
+  },
+  {
+    "FoodItem": "Grapefruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "42 cal"
+  },
+  {
+    "FoodItem": "Guava",
+    "per100grams": "100g",
+    "Cals_per100grams": "68 cal"
+  },
+  {
+    "FoodItem": "Honeydew",
+    "per100grams": "100g",
+    "Cals_per100grams": "36 cal"
+  },
+  {
+    "FoodItem": "Jackfruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "95 cal"
+  },
+  {
+    "FoodItem": "Kiwi",
+    "per100grams": "100g",
+    "Cals_per100grams": "61 cal"
+  },
+  {
+    "FoodItem": "Kumquat",
+    "per100grams": "100g",
+    "Cals_per100grams": "71 cal"
+  },
+  {
+    "FoodItem": "Lychee",
+    "per100grams": "100g",
+    "Cals_per100grams": "66 cal"
+  },
+  {
+    "FoodItem": "Mandarin Oranges",
+    "per100grams": "100g",
+    "Cals_per100grams": "53 cal"
+  },
+  {
+    "FoodItem": "Mango",
+    "per100grams": "100g",
+    "Cals_per100grams": "60 cal"
+  },
+  {
+    "FoodItem": "Mangosteen",
+    "per100grams": "100g",
+    "Cals_per100grams": "73 cal"
+  },
+  {
+    "FoodItem": "Maracuya",
+    "per100grams": "100g",
+    "Cals_per100grams": "97 cal"
+  }
+]
