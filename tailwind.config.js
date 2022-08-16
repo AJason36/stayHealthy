@@ -11,7 +11,7 @@ module.exports = {
       },
     },
     backgroundImage: {
-      bg: "url('../public/landing.png')",
+      bg: "url('/public/landing.png')",
     },
   },
   plugins: [],
