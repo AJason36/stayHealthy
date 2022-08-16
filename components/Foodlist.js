@@ -8,7 +8,7 @@ import FoodData from "./ListData.json";
 import Pagination from "../components/Pagination";
 import CardFood from "./CardFood";
 
-const Foodlist = () => {
+const Foodlist = (props) => {
   const [inputText, setInputText] = useState("");
 
   const [posts, setPosts] = useState([]);
@@ -25,16 +25,16 @@ const Foodlist = () => {
     setInputText(lowerCase);
   };
 
-  const filteredData = posts.filter((el) => {
+  const filteredData = FoodData.filter((el) => {
     if (inputText === "") {
       return el;
     } else {
       console.log(el);
-      return el.name.toLowerCase().includes(inputText);
+      return el.FoodItem?.toLowerCase().includes(inputText);
     }
   });
   return (
-    <div>
+    <div id="calorie">
       <div className="flex flex-col items-center mb-32 px-8 gap-3">
         <h1 className="text-4xl lg:text-3xl mb-5 "></h1>
 
@@ -55,11 +55,12 @@ const Foodlist = () => {
       </div>
       <div className="flex flex-col gap-8">
         <div className="flex flex-wrap gap-8 mx-10 justify-center">
-          {FoodData.slice(
+          {filteredData.slice(
             currentPage * pageSize - pageSize,
             currentPage * pageSize
           ).map((food) => (
             <CardFood
+              key={food.FoodItem}
               FoodItem={food.FoodItem}
               Cals_per100grams={food.Cals_per100grams}
             />

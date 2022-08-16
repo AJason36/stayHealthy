@@ -1,9 +1,10 @@
+import Image from "next/image";
 import React from "react";
 const Footer = () => {
     return (  
-        <div className="bg-[#292E3A] px-40 py-20 gap-12 w-full flex flex-row justify-between items-center text-white">
+        <div id="footer" className="bg-[#292E3A] px-40 py-20 gap-12 w-full flex flex-row justify-between items-center text-white">
             <div>
-                <img className="" src="/logo.png" alt="logo"></img>
+                <Image className="" src="/logo.png" alt="logo" width={500} height={200} />
             </div>
             <div>
                 <p><b>About</b></p>
