@@ -14,7 +14,8 @@ const Calorie = () => {
           This chart below show your recommended calories intake per day. Make Sure to fulfill your calories intake
               </p>
         <p className="lg:text-2xl px-8 py-6 justify-center relative z-10 rounded-lg  card md:w-3/4 text-justify">
-          {/* TOLONG ISI YG GW KASI DI LINE */}
+          Search every item of your meals then add them to your Food Intake
+to see how your calories add up!
         </p>
       </section>
     </>
