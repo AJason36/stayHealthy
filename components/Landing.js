@@ -22,11 +22,6 @@ const Landing = () => {
             height={800}
           />
         </div>
-=======
-      <div className="w-full object-bottom">
-          <Image src="/landing.png" className="" alt="landing" width={1500} height={800} />
-      </div>
->>>>>>> 0d2933b75174d88d6c0f6885eccd7956d4ff5ce7
       </main>
     </>
   );
