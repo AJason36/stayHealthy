@@ -5,9 +5,22 @@ const Landing = () => {
   return (
     <>
       <main className="h-screen w-full bg-scroll bg-no-repeat bg-cover max-h-screen flex">
-      <div class="w-full">
-          <Image src="/landing.png" class="absolute top-0 left-0 overflow-x-hidden object-fit" alt="landing" width={1500} height={800} />
-      </div>
+        <div className="flex flex-row w-full object-bottom">
+          <Image
+            src="/landing1.png"
+            className="object-left-bottom"
+            alt="landing"
+            width={1500}
+            height={800}
+          />
+          <Image
+            src="/landing2.png"
+            className="object-right-bottom"
+            alt="landing"
+            width={1500}
+            height={800}
+          />
+        </div>
       </main>
     </>
   );
