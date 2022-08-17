@@ -136,7 +136,9 @@ export default function Home() {
         <div className="flex flex-col grow text-[#F8F4EE] text-lg p-2">
           Food Intake
           {foodIntake.map(
-            (food) => ( <div className="flex flex-row font-[Lora] justify-between"> <div> {food.FoodItem} </div> <div> {food.Cals_per100grams.substring(-4)} </div> </div>)
+            (food) => ( 
+            <div key={food.FoodItem} className="flex flex-row font-[Lora] justify-between"> <div> {food.FoodItem} </div> 
+            <div> {food.Cals_per100grams.substring(-4)} </div> </div>)
           )}
         </div>
       </div>
