@@ -11,7 +11,6 @@ import CardFood from "./CardFood";
 const Foodlist = (props) => {
   const [inputText, setInputText] = useState("");
 
-  const [posts, setPosts] = useState([]);
   const pageSize = 10;
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -35,14 +34,12 @@ const Foodlist = (props) => {
   });
   return (
     <div id="calorie">
-      <div className="flex flex-col items-center mb-32 px-8 gap-3">
-        <h1 className="text-4xl lg:text-3xl mb-5 "></h1>
-
+      <div className="flex flex-col items-center mb-32 px-8 gap-1 w-[100vw] md:w-[70vw]">
         <h1 className="text-4xl lg:text-3xl mb-5  font-Poppins text-[#2DAE77]">
           <b>Search{"\u00a0\u00a0"}Food</b>
         </h1>
-        <div className="main">
-          <div className="search">
+        <div className="w-[100vw] md:w-[70vw]">
+          <div className="search w-[100vw] md:w-[70vw]">
             <TextField
               id="outlined-basic"
               onChange={inputHandler}
@@ -67,7 +64,7 @@ const Foodlist = (props) => {
           ))}
         </div>
         <Pagination
-          items={FoodData.length}
+          items={filteredData.length}
           pageSize={pageSize}
           currentPage={currentPage}
           onPageChange={handlePageChange}

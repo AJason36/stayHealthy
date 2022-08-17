@@ -24,7 +24,7 @@ export default function Home() {
 
   const [posts, setPosts] = useState(FoodData);
   const [foodIntake, setFoodIntake] = useState([]);
-  const pageSize = 10;
+  const pageSize = 8;
   const [currentPage, setCurrentPage] = useState(1);
 
   const [dataKalori, setDataKalori] = useState([2000,0]);
@@ -111,7 +111,7 @@ export default function Home() {
         <div className="max-w-7xl md:w-xl lg:w-5xl ">
           <Landing />
           <>
-        <section className="flex flex-col items-center mb-32 px-8 sm:px-0 gap-3">
+        <section className="flex flex-col items-center px-1 sm:px-0 gap-3">
         <h1 className="text-4xl lg:text-3xl mb-5 "></h1>
           
         <h1 className="text-4xl lg:text-3xl mb-5 font-Poppins">
@@ -120,8 +120,8 @@ export default function Home() {
         <p className="lg:text-2xl font-[Lora] px-8 py-6 justify-center relative z-10 rounded-lg  card md:w-3/4 text-justify">
           This chart below show your recommended calories intake per day. Make Sure to fulfill your calories intake!
               </p>
-        <div className="container flex items-center justify-center w-full">
-      <div className="flex flex-row flex-start w-[100vw] md:w-[30vw] min-h-fit rounded-[16px] p-6 bg-[#2DAE77] shadow-green-2xl">
+        <div className="container flex items-center justify-center mb-4  w-full">
+      <div className="flex flex-row flex-start w-[100vw] md:w-[70vw] min-h-fit rounded-[16px] p-6 bg-[#2DAE77] shadow-green-2xl">
         <div className="flex flex-col text-[#F8F4EE] text-lg p-2">
           Calories
           <div className="relative h-180 w-180 justify-center">
@@ -143,16 +143,11 @@ export default function Home() {
         </div>
       </div>
     </div>
-        <p className="lg:text-2xl font-[Lora] px-8 py-6 justify-center relative z-10 rounded-lg  card md:w-3/4 text-justify">
-          Search every item of your meals then add them to your Food Intake
-          to see how your calories add up!
-        </p>
+
       </section>
     </>
     <div id="calorie">
-      <div className="flex flex-col items-center mb-32 px-8 gap-3">
-        <h1 className="text-4xl lg:text-3xl mb-5 "></h1>
-
+      <div className="flex flex-col items-center mb-3  gap-2">
         <h1 className="text-4xl lg:text-3xl mb-5  font-Poppins text-[#2DAE77]">
           <b>Search{"\u00a0\u00a0"}Food</b>
         </h1>
@@ -168,8 +163,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-8">
-        <div className="flex flex-wrap gap-8 mx-10 justify-center">
+      <div className=" flex flex-col gap-8">
+        <div className=" flex flex-wrap gap-8 mx-10 mb-4 justify-center">
           {filteredData.slice(
             currentPage * pageSize - pageSize,
             currentPage * pageSize
@@ -183,7 +178,7 @@ export default function Home() {
           ))}
         </div>
         <Pagination
-          items={posts.length}
+          items={filteredData.length}
           pageSize={pageSize}
           currentPage={currentPage}
           onPageChange={handlePageChange}
