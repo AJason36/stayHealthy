@@ -13,7 +13,7 @@ const Landing = () => {
             alt="landing"
             width={1600}
             height={800}
-            // layout="fill"
+            layout="responsive"
           />
     
         </div>
