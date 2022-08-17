@@ -4,7 +4,7 @@ const Footer = () => {
     return (  
         <div id="footer" className="bg-[#292E3A] px-40 py-20 gap-12 w-full flex flex-row justify-between items-center text-white">
             <div>
-                <Image className="" src="/logo.png" alt="logo" width={500} height={200} />
+                <Image className="" src="/logo.png" alt="logo" width={710} height={200} />
             </div>
             <div>
                 <p><b>About</b></p>
