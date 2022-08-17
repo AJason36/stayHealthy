@@ -7,9 +7,98 @@ import Footer from "../components/Footer";
 import Landing from "../components/Landing";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
+import TextField from "@mui/material/TextField";
+import { useState, useEffect } from "react";
+import FoodData from "./ListData.json";
+import Pagination from "../components/Pagination";
+import { Doughnut } from "react-chartjs-2";
+import {Chart, ArcElement} from 'chart.js'
+Chart.register(ArcElement);
 import styles from "../styles/Home.module.css";
 
+
+
 export default function Home() {
+
+  const [inputText, setInputText] = useState("");
+
+  const [posts, setPosts] = useState(FoodData);
+  const [foodIntake, setFoodIntake] = useState([]);
+  const pageSize = 10;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const [dataKalori, setDataKalori] = useState([2000,0]);
+  
+  useEffect(() => {
+    console.log(foodIntake);
+    if (foodIntake.length > 0){
+    const totalKalori = foodIntake.map(item => parseInt(item.Cals_per100grams.substring(-4))).reduce((prev,next) => prev + next);
+    const remainingKalori = 2000 - totalKalori;
+    console.log(remainingKalori,totalKalori)
+    setDataKalori([remainingKalori,totalKalori])}
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [foodIntake]);
+
+  const data = {
+    maintainAspectRatio: false,
+    responsive: false,
+    clip:0,
+    labels: ["a", "b"],
+    datasets: [
+      {
+        data: dataKalori,
+        backgroundColor: ["#F8F4EE","#F78155"],
+        hoverBackgroundColor: ["#F8F4EE", "#F78155"],
+        borderWidth: 0,
+        innerWidth: 230,
+        outerWidth: 240,
+        weight: 10,
+        clip: 0
+      }
+    ]
+  }
+
+  const options = {
+    legend: {
+      display: false,
+      position: "left"
+    },
+    clip: 0,
+    cutout: "75%",
+    radius: "90%",
+    // layout: 
+    // {
+    //   padding: {
+    //     left: 24,
+    //     right: 120,
+    //   }
+    // }
+    // elements: {
+    //   arc: {
+    //     borderWidth: 0
+    //   }
+    // }
+  };
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
+  let inputHandler = (e) => {
+    //convert input text to lower case
+    var lowerCase = e.target.value.toLowerCase();
+    setInputText(lowerCase);
+  };
+
+  const filteredData = posts.filter((el) => {
+    if (inputText === "") {
+      return el;
+    } else {
+      console.log(el);
+      return el.FoodItem?.toLowerCase().includes(inputText);
+    }
+  });
+
   return (
     <>
       <Head>
@@ -21,8 +110,84 @@ export default function Home() {
       <Navbar/> 
         <div className="max-w-7xl md:w-xl lg:w-5xl ">
           <Landing />
-          <Calorie />
-        <Foodlist />
+          <>
+        <section className="flex flex-col items-center mb-32 px-8 sm:px-0 gap-3">
+        <h1 className="text-4xl lg:text-3xl mb-5 "></h1>
+          
+        <h1 className="text-4xl lg:text-3xl mb-5 font-Poppins">
+          <b>Count{"\u00a0\u00a0"}your{"\u00a0\u00a0"}calories{"\u00a0\u00a0"}with{"\u00a0\u00a0"}our{"\u00a0\u00a0"}tools</b>
+        </h1>
+        <p className="lg:text-2xl font-[Lora] px-8 py-6 justify-center relative z-10 rounded-lg  card md:w-3/4 text-justify">
+          This chart below show your recommended calories intake per day. Make Sure to fulfill your calories intake!
+              </p>
+        <div className="container flex items-center justify-center w-full">
+      <div className="flex flex-row flex-start w-[100vw] md:w-[30vw] min-h-fit rounded-[16px] p-6 bg-[#2DAE77] shadow-green-2xl">
+        <div className="flex flex-col text-[#F8F4EE] text-lg p-2">
+          Calories
+          <div className="relative h-180 w-180 justify-center">
+            <Doughnut data={data} options={options} width={180} height={180}/>
+            <div>
+            {dataKalori[0]} remaining
+            </div>
+          </div>
+
+          
+        </div>
+        <div className="flex flex-col grow text-[#F8F4EE] text-lg p-2">
+          Food Intake
+          {foodIntake.map(
+            (food) => ( <div className="flex flex-row font-[Lora] justify-between"> <div> {food.FoodItem} </div> <div> {food.Cals_per100grams.substring(-4)} </div> </div>)
+          )}
+        </div>
+      </div>
+    </div>
+        <p className="lg:text-2xl font-[Lora] px-8 py-6 justify-center relative z-10 rounded-lg  card md:w-3/4 text-justify">
+          Search every item of your meals then add them to your Food Intake
+          to see how your calories add up!
+        </p>
+      </section>
+    </>
+    <div id="calorie">
+      <div className="flex flex-col items-center mb-32 px-8 gap-3">
+        <h1 className="text-4xl lg:text-3xl mb-5 "></h1>
+
+        <h1 className="text-4xl lg:text-3xl mb-5  font-Poppins text-[#2DAE77]">
+          <b>Search{"\u00a0\u00a0"}Food</b>
+        </h1>
+        <div className="main">
+          <div className="search">
+            <TextField
+              id="outlined-basic"
+              onChange={inputHandler}
+              variant="outlined"
+              fullWidth
+              label="Search"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col gap-8">
+        <div className="flex flex-wrap gap-8 mx-10 justify-center">
+          {filteredData.slice(
+            currentPage * pageSize - pageSize,
+            currentPage * pageSize
+          ).map((food) => (
+            <CardFood
+              key={food.FoodItem}
+              FoodItem={food.FoodItem}
+              Cals_per100grams={food.Cals_per100grams}
+              onClick = {() => {setFoodIntake([...foodIntake,food])}}
+            />
+          ))}
+        </div>
+        <Pagination
+          items={posts.length}
+          pageSize={pageSize}
+          currentPage={currentPage}
+          onPageChange={handlePageChange}
+        />
+        </div>
+    </div>
         </div>
       <Footer/>
         
