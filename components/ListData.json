@@ -528,5 +528,475 @@
     "FoodItem": "Maracuya",
     "per100grams": "100g",
     "Cals_per100grams": "97 cal"
+  },
+  {
+    "FoodItem": "Maraschino Cherries",
+    "per100grams": "100g",
+    "Cals_per100grams": "165 cal"
+  },
+  {
+    "FoodItem": "Muskmelon",
+    "per100grams": "100g",
+    "Cals_per100grams": "34 cal"
+  },
+  {
+    "FoodItem": "Noni",
+    "per100grams": "100g",
+    "Cals_per100grams": "53 cal"
+  },
+  {
+    "FoodItem": "Passion Fruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "97 cal"
+  },
+  {
+    "FoodItem": "Pineapple",
+    "per100grams": "100g",
+    "Cals_per100grams": "50 cal"
+  },
+  {
+    "FoodItem": "Pink Grapefruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "42 cal"
+  },
+  {
+    "FoodItem": "Plantain",
+    "per100grams": "100g",
+    "Cals_per100grams": "122 cal"
+  },
+  {
+    "FoodItem": "Pomegranate",
+    "per100grams": "100g",
+    "Cals_per100grams": "83 cal"
+  },
+  {
+    "FoodItem": "Pomelo",
+    "per100grams": "100g",
+    "Cals_per100grams": "38 cal"
+  },
+  {
+    "FoodItem": "Prickly Pear",
+    "per100grams": "100g",
+    "Cals_per100grams": "41 cal"
+  },
+  {
+    "FoodItem": "Rambutan",
+    "per100grams": "100g",
+    "Cals_per100grams": "82 cal"
+  },
+  {
+    "FoodItem": "Sapodilla",
+    "per100grams": "100g",
+    "Cals_per100grams": "83 cal"
+  },
+  {
+    "FoodItem": "Soursop Fruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "66 cal"
+  },
+  {
+    "FoodItem": "Star Fruit",
+    "per100grams": "100g",
+    "Cals_per100grams": "31 cal"
+  },
+  {
+    "FoodItem": "Tamarind",
+    "per100grams": "100g",
+    "Cals_per100grams": "239 cal"
+  },
+  {
+    "FoodItem": "Watermelon",
+    "per100grams": "100g",
+    "Cals_per100grams": "30 cal"
+  },
+  {
+    "FoodItem": "All-blue Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "61 cal"
+  },
+  {
+    "FoodItem": "Baked Potato",
+    "per100grams": "100g",
+    "Cals_per100grams": "93 cal"
+  },
+  {
+    "FoodItem": "Boiled Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "87 cal"
+  },
+  {
+    "FoodItem": "Cassava",
+    "per100grams": "100g",
+    "Cals_per100grams": "160 cal"
+  },
+  {
+    "FoodItem": "Croquettes",
+    "per100grams": "100g",
+    "Cals_per100grams": "127 cal"
+  },
+  {
+    "FoodItem": "Dumpling Dough",
+    "per100grams": "100g",
+    "Cals_per100grams": "124 cal"
+  },
+  {
+    "FoodItem": "Dumplings",
+    "per100grams": "100g",
+    "Cals_per100grams": "124 cal"
+  },
+  {
+    "FoodItem": "French Fingerling Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "82 cal"
+  },
+  {
+    "FoodItem": "French Fries",
+    "per100grams": "100g",
+    "Cals_per100grams": "312 cal"
+  },
+  {
+    "FoodItem": "Fried Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "312 cal"
+  },
+  {
+    "FoodItem": "Gnocchi",
+    "per100grams": "100g",
+    "Cals_per100grams": "133 cal"
+  },
+  {
+    "FoodItem": "Japanese Sweet Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "87 cal"
+  },
+  {
+    "FoodItem": "Marrow Dumplings",
+    "per100grams": "100g",
+    "Cals_per100grams": "424 cal"
+  },
+  {
+    "FoodItem": "Mashed Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "89 cal"
+  },
+  {
+    "FoodItem": "Norland Red Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "89 cal"
+  },
+  {
+    "FoodItem": "Omelette",
+    "per100grams": "100g",
+    "Cals_per100grams": "154 cal"
+  },
+  {
+    "FoodItem": "Potato",
+    "per100grams": "100g",
+    "Cals_per100grams": "77 cal"
+  },
+  {
+    "FoodItem": "Potato Dumpling",
+    "per100grams": "100g",
+    "Cals_per100grams": "124 cal"
+  },
+  {
+    "FoodItem": "Potato Fritter",
+    "per100grams": "100g",
+    "Cals_per100grams": "185 cal"
+  },
+  {
+    "FoodItem": "Potato Gratin",
+    "per100grams": "100g",
+    "Cals_per100grams": "132 cal"
+  },
+  {
+    "FoodItem": "Potato Pancakes",
+    "per100grams": "100g",
+    "Cals_per100grams": "268 cal"
+  },
+  {
+    "FoodItem": "Potato Salad",
+    "per100grams": "100g",
+    "Cals_per100grams": "143 cal"
+  },
+  {
+    "FoodItem": "Potato Starch",
+    "per100grams": "100g",
+    "Cals_per100grams": "331 cal"
+  },
+  {
+    "FoodItem": "Potato Sticks",
+    "per100grams": "100g",
+    "Cals_per100grams": "522 cal"
+  },
+  {
+    "FoodItem": "Potato Waffles",
+    "per100grams": "100g",
+    "Cals_per100grams": "167 cal"
+  },
+  {
+    "FoodItem": "Potato Wedges",
+    "per100grams": "100g",
+    "Cals_per100grams": "123 cal"
+  },
+  {
+    "FoodItem": "Potatoes au Gratin",
+    "per100grams": "100g",
+    "Cals_per100grams": "132 cal"
+  },
+  {
+    "FoodItem": "Purple Majesty Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "72 cal"
+  },
+  {
+    "FoodItem": "Red Gold Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "89 cal"
+  },
+  {
+    "FoodItem": "Red Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "89 cal"
+  },
+  {
+    "FoodItem": "Roast Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "149 cal"
+  },
+  {
+    "FoodItem": "Rosemary Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "93 cal"
+  },
+  {
+    "FoodItem": "Rösti",
+    "per100grams": "100g",
+    "Cals_per100grams": "138 cal"
+  },
+  {
+    "FoodItem": "Russet Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "97 cal"
+  },
+  {
+    "FoodItem": "Russian Banana Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "67 cal"
+  },
+  {
+    "FoodItem": "Sweet Potato",
+    "per100grams": "100g",
+    "Cals_per100grams": "92 cal"
+  },
+  {
+    "FoodItem": "White Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "94 cal"
+  },
+  {
+    "FoodItem": "Yams",
+    "per100grams": "100g",
+    "Cals_per100grams": "116 cal"
+  },
+  {
+    "FoodItem": "Yukon Gold Potatoes",
+    "per100grams": "100g",
+    "Cals_per100grams": "82 cal"
+  },
+  {
+    "FoodItem": "Artichoke",
+    "per100grams": "100g",
+    "Cals_per100grams": "47 cal"
+  },
+  {
+    "FoodItem": "Arugula",
+    "per100grams": "100g",
+    "Cals_per100grams": "25 cal"
+  },
+  {
+    "FoodItem": "Asparagus",
+    "per100grams": "100g",
+    "Cals_per100grams": "20 cal"
+  },
+  {
+    "FoodItem": "Aubergine",
+    "per100grams": "100g",
+    "Cals_per100grams": "25 cal"
+  },
+  {
+    "FoodItem": "Beetroot",
+    "per100grams": "100g",
+    "Cals_per100grams": "43 cal"
+  },
+  {
+    "FoodItem": "Bell Pepper",
+    "per100grams": "100g",
+    "Cals_per100grams": "20 cal"
+  },
+  {
+    "FoodItem": "Black Olives",
+    "per100grams": "100g",
+    "Cals_per100grams": "115 cal"
+  },
+  {
+    "FoodItem": "Broccoli",
+    "per100grams": "100g",
+    "Cals_per100grams": "34 cal"
+  },
+  {
+    "FoodItem": "Brussels Sprouts",
+    "per100grams": "100g",
+    "Cals_per100grams": "43 cal"
+  },
+  {
+    "FoodItem": "Cabbage",
+    "per100grams": "100g",
+    "Cals_per100grams": "25 cal"
+  },
+  {
+    "FoodItem": "Capsicum",
+    "per100grams": "100g",
+    "Cals_per100grams": "27 cal"
+  },
+  {
+    "FoodItem": "Carrot",
+    "per100grams": "100g",
+    "Cals_per100grams": "41 cal"
+  },
+  {
+    "FoodItem": "Cauliflower",
+    "per100grams": "100g",
+    "Cals_per100grams": "25 cal"
+  },
+  {
+    "FoodItem": "Celery",
+    "per100grams": "100g",
+    "Cals_per100grams": "16 cal"
+  },
+  {
+    "FoodItem": "Chard",
+    "per100grams": "100g",
+    "Cals_per100grams": "19 cal"
+  },
+  {
+    "FoodItem": "Cherry Tomato",
+    "per100grams": "100g",
+    "Cals_per100grams": "100 cal"
+  },
+  {
+    "FoodItem": "Chicory",
+    "per100grams": "100g",
+    "Cals_per100grams": "72 cal"
+  },
+  {
+    "FoodItem": "Chinese Cabbage",
+    "per100grams": "100g",
+    "Cals_per100grams": "16 cal"
+  },
+  {
+    "FoodItem": "Chives",
+    "per100grams": "100g",
+    "Cals_per100grams": "30 cal"
+  },
+  {
+    "FoodItem": "Collard Greens",
+    "per100grams": "100g",
+    "Cals_per100grams": "32 cal"
+  },
+  {
+    "FoodItem": "Corn",
+    "per100grams": "100g",
+    "Cals_per100grams": "365 cal"
+  },
+  {
+    "FoodItem": "Courgette",
+    "per100grams": "100g",
+    "Cals_per100grams": "17 cal"
+  },
+  {
+    "FoodItem": "Creamed Spinach",
+    "per100grams": "100g",
+    "Cals_per100grams": "74 cal"
+  },
+  {
+    "FoodItem": "Cucumber",
+    "per100grams": "100g",
+    "Cals_per100grams": "16 cal"
+  },
+  {
+    "FoodItem": "Eggplant",
+    "per100grams": "100g",
+    "Cals_per100grams": "25 cal"
+  },
+  {
+    "FoodItem": "Endive",
+    "per100grams": "100g",
+    "Cals_per100grams": "17 cal"
+  },
+  {
+    "FoodItem": "Fennel",
+    "per100grams": "100g",
+    "Cals_per100grams": "31 cal"
+  },
+  {
+    "FoodItem": "Garlic",
+    "per100grams": "100g",
+    "Cals_per100grams": "149 cal"
+  },
+  {
+    "FoodItem": "Gherkin",
+    "per100grams": "100g",
+    "Cals_per100grams": "14 cal"
+  },
+  {
+    "FoodItem": "Gourd",
+    "per100grams": "100g",
+    "Cals_per100grams": "14 cal"
+  },
+  {
+    "FoodItem": "Green Beans",
+    "per100grams": "100g",
+    "Cals_per100grams": "31 cal"
+  },
+  {
+    "FoodItem": "Green Olives",
+    "per100grams": "100g",
+    "Cals_per100grams": "115 cal"
+  },
+  {
+    "FoodItem": "Green Onion",
+    "per100grams": "100g",
+    "Cals_per100grams": "32 cal"
+  },
+  {
+    "FoodItem": "Horseradish",
+    "per100grams": "100g",
+    "Cals_per100grams": "48 cal"
+  },
+  {
+    "FoodItem": "Kale",
+    "per100grams": "100g",
+    "Cals_per100grams": "49 cal"
+  },
+  {
+    "FoodItem": "Kohlrabi",
+    "per100grams": "100g",
+    "Cals_per100grams": "27 cal"
+  },
+  {
+    "FoodItem": "Kumara",
+    "per100grams": "100g",
+    "Cals_per100grams": "86 cal"
+  },
+  {
+    "FoodItem": "Leek",
+    "per100grams": "100g",
+    "Cals_per100grams": "61 cal"
+  },
+  {
+    "FoodItem": "Lettuce",
+    "per100grams": "100g",
+    "Cals_per100grams": "15 cal"
   }
 ]
